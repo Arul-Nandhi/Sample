@@ -1,5 +1,5 @@
 c=input("Enter a character: ")
-if c.isdigit():
-    print("Digit")
+if c.isalpha():
+    print("character")
 else:
-    print("Not a digit")
+    print("Not a character")
